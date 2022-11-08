@@ -1,0 +1,15 @@
+###
+
+GET http://localhost:8080/pets
+
+
+###
+
+POST http://localhost:8080/pets
+Content-Type: application/json
+
+{
+    "age": 3,
+    "kind": "Maltipoo",
+    "name": "Goldi",
+}
